@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "allofblocksareslippery",
+  "version": "${version}",
+  "name": "AllOfBlocksAreSlippery",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/AllOfBlocksAreSlippery/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.khy010802.allofblocksareslippery.client.AllOfBlocksAreSlipperyClient"
+    ],
+    "main": [
+      "com.github.khy010802.allofblocksareslippery.AllOfBlocksAreSlippery"
+    ]
+  },
+  "mixins": [
+    "AllOfBlocksAreSlippery.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": ">=1.18.2"
+  }
+}
